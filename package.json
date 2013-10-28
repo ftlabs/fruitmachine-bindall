@@ -1,7 +1,7 @@
 {
-  "name": "fruitmachine-bindAll",
+  "name": "fruitmachine-bindall",
   "version": "1.0.0",
-  "description": "A [fruitmachine](http://github.com/ftlabs/fruitmachine) helper that binds all the methods in fruitmachine modules to each instance.",
+  "description": "A fruitmachine helper that binds all the methods in fruitmachine modules to each instance.",
   "main": "lib/helper.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
