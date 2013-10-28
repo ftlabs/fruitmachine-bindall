@@ -4,7 +4,7 @@ A [fruitmachine](http://github.com/ftlabs/fruitmachine) helper that binds all th
 
 ## Example
 
-```
+```js
 var Apple = fruitmachine.define({
   name: 'apple',
   initialize: function() {
@@ -25,7 +25,7 @@ var Apple = fruitmachine.define({
 ... simplies to this ...
 
 
-```
+```js
 var Apple = fruitmachine.define({
   name: 'apple',
   helpers: [require('fruitmachine-bindall')],
@@ -43,5 +43,5 @@ var Apple = fruitmachine.define({
 
 (This makes more of an impact as modules become more complex)
 
-## Why isn't this the default behaviour of fruitmachine?
+### Why isn't this the default behaviour of fruitmachine?
 Because we believe it isn't always needed (and sometimes isn't expected).

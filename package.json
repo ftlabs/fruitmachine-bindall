@@ -1,5 +1,5 @@
 {
-  "name": "fruitmachine-bindall",
+  "name": "fruitmachine-bindAll",
   "version": "1.0.0",
   "description": "A [fruitmachine](http://github.com/ftlabs/fruitmachine) helper that binds all the methods in fruitmachine modules to each instance.",
   "main": "lib/helper.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:ftlabs/fruitmachine-bindall.git"
+    "url": "git@github.com:ftlabs/fruitmachine-bindAll.git"
   },
   "keywords": [
     "fruitmachine",
@@ -18,6 +18,6 @@
   "author": "Wilson Page <wilsonpage@me.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ftlabs/fruitmachine-bindall/issues"
+    "url": "https://github.com/ftlabs/fruitmachine-bindAll/issues"
   }
 }
