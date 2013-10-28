@@ -28,7 +28,7 @@ var Apple = fruitmachine.define({
 ```js
 var Apple = fruitmachine.define({
   name: 'apple',
-  helpers: [require('fruitmachine-bindAll')],
+  helpers: [require('fruitmachine-bindall')],
   setup: function() {
     this.el.addEventListener('click', this.onButtonClick);
   },
