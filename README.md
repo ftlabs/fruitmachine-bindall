@@ -1,4 +1,4 @@
-# fruitmachine-bindall
+# fruitmachine-bindAll
 
 A [fruitmachine](http://github.com/ftlabs/fruitmachine) helper that binds all the methods in fruitmachine modules to each instance.
 
@@ -28,7 +28,7 @@ var Apple = fruitmachine.define({
 ```js
 var Apple = fruitmachine.define({
   name: 'apple',
-  helpers: [require('fruitmachine-bindall')],
+  helpers: [require('fruitmachine-bindAll')],
   setup: function() {
     this.el.addEventListener('click', this.onButtonClick);
   },
